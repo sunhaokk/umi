@@ -10,3 +10,4 @@ RUN yarn global add umi
 EXPOSE 8000
 CMD umi dev
 
+
