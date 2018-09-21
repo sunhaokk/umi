@@ -1,4 +1,4 @@
-# Version 1.2
+# Version 1.5
 FROM node:8.9-alpine
 ENV NODE_ENV production
 ADD . /code
@@ -9,5 +9,3 @@ RUN yarn config set registry https://registry.npm.taobao.org
 RUN yarn global add umi
 EXPOSE 8000
 CMD umi dev
-
-
