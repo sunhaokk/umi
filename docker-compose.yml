@@ -1,0 +1,11 @@
+version: '2.1'
+
+services:
+  umi:
+    image: umi
+    volumes:
+      - .:/code
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:8000
