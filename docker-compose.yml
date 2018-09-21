@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
   umi:
-    image: umi
+    image: registry.cn-hangzhou.aliyuncs.com/aerys/umi
     volumes:
       - .:/code
     environment:
